@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="60d0506f26c64441bf5eaea358dbf523" Name="Diagram1">
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkAccessUserGroup" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkAllocation" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkAllocationBal" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkCatalogGrpModel" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkCatalogGrpUser" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkCatalogGrpUserNew" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkCollectionDO" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkCollectionDOStatu" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkDefaultBin" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkDelivery" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkDeliveryBal" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkItemStatusConversion" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkModel" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkModelUOM" Width="1.5" PointX="6.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkModuleActionRole" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkOrder" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkOrderUpload" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkPurchase" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkRepair" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkReplaceEB" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkSale" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkSalesBal" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkSalesDelivery" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkSalesOrder" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkSalesOrderHistory" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkSOContactCustomer" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkTransfer" Width="1.5" PointX="6.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkTransferBal" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkTransferDiagnosi" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkTransferRequest" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkTransferUpload" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.lnkUserGroupRole" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.Log4NetLnF" Width="1.5" PointX="16.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.logTransferItem" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refAction" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refBizUnit" Width="1.5" PointX="16.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refBrand" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refCatalogGroup" Width="1.5" PointX="2.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refCategory" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refCenter" Width="1.5" PointX="18.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refCenterType" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refCity" Width="1.5" PointX="18.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refColour" Width="1.5" PointX="8.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refCountry" Width="1.5" PointX="14.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refDeliveryType" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refEmail" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refItemCode" Width="1.5" PointX="4.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refModel" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refModule" Width="1.5" PointX="20.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refPrice" Width="1.5" PointX="16.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refRegion" Width="1.5" PointX="20.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refResource" Width="1.5" PointX="18.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refState" Width="1.5" PointX="20.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refStatu" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refStatusConversionReason" Width="1.5" PointX="0.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refStatusSOContactCustomer" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refTax" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refTransferType" Width="1.5" PointX="10.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refType" Width="1.5" PointX="22.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refUOM" Width="1.5" PointX="22.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.refUserGroup" Width="1.5" PointX="22.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblAccess" Width="1.5" PointX="6.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblCompanySetting" Width="1.5" PointX="12.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblCoverageFilter" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblDiagnosisItem" Width="1.5" PointX="2.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblExtApp" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblFile" Width="1.5" PointX="24.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblItem" Width="1.5" PointX="24.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblNew" Width="1.5" PointX="24.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblOtherConsignmentModel" Width="1.5" PointX="14.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblStkBalance" Width="1.5" PointX="16.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblStkJournal" Width="1.5" PointX="18.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblStkMovement" Width="1.5" PointX="20.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tblTenant" Width="1.5" PointX="22.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tmpItemCodeModel" Width="1.5" PointX="24.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tmpItemStatusConversion" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tmpItemUpload" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tmpPostcode" Width="1.5" PointX="8.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.tmpRunningNumber" Width="1.5" PointX="26.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnAllocation" Width="1.5" PointX="26.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnCollectionDO" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnDelivery" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnItemStatusConversion" Width="1.5" PointX="4.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnMobileSession" Width="1.5" PointX="6.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnOrder" Width="1.5" PointX="28.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnOrderUpload" Width="1.5" PointX="8.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnPurchase" Width="1.5" PointX="28.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnRepair" Width="1.5" PointX="28.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnReplaceEB" Width="1.5" PointX="0.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnSale" Width="1.5" PointX="10.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnSalesDelivery" Width="1.5" PointX="12.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnSalesOrder" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnSession" Width="1.5" PointX="30.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnTransfer" Width="1.5" PointX="30.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnTransferDiagnosi" Width="1.5" PointX="14.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnTransferRequest" Width="1.5" PointX="16.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iwa_Uniqbe_DEVModel.trnTransferUpload" Width="1.5" PointX="18.75" PointY="30.75" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

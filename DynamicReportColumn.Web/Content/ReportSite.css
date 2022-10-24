@@ -1,0 +1,145 @@
+﻿.frmtxt {
+    font-family: Tahoma;
+    font-size: 9pt;
+}
+
+.frmdata {
+    font-family: Tahoma;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+.frmsectitle {
+    font-family: Tahoma;
+    font-size: 10pt;
+    color: white;
+    font-weight: bolder;
+}
+
+.msgtxt {
+    font-family: Tahoma;
+    font-size: 10pt;
+}
+
+.msgtitle {
+    font-family: Tahoma;
+    font-size: 11pt;
+    font-weight: bolder;
+    color: #ff6600;
+}
+
+.smalltxt {
+    font-family: Tahoma;
+    font-size: 8pt;
+    color: black;
+}
+
+.alerttitle {
+    font-family: Tahoma;
+    font-size: 12pt;
+    font-weight: bolder;
+    color: red;
+}
+
+.normaltxt {
+    font-family: Tahoma;
+    font-size: 10pt;
+}
+
+.welcome {
+    font-family: Tahoma;
+    font-size: 8pt;
+    font-weight: bolder;
+    color: gray;
+}
+
+.menutitle {
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 10pt;
+    color: #FFCC66;
+    font-weight: bolder;
+}
+
+.menutxt {
+    font-family: Tahoma;
+    font-size: 8pt;
+    color: #FFFF99;
+}
+
+.tabletitle {
+    font-family: Tahoma;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+.tabletxt {
+    font-family: Tahoma;
+    font-size: 9pt;
+}
+
+.tabletxtsmall {
+    font-family: Tahoma;
+    font-size: 8pt;
+}
+
+.tableredtxt {
+    font-family: Tahoma;
+    font-size: 8pt;
+    color: #CC3333;
+}
+
+.tabletxtbold {
+    font-family: Tahoma;
+    font-size: 8pt;
+    font-weight: bolder;
+    color: #CC3333;
+}
+
+.info {
+    font-family: Tahoma;
+    font-style: italic;
+}
+
+.maint {
+    font-family: Tahoma;
+    font-size: 8pt;
+}
+
+.copy_t_wb {
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+A.copy_t_wb {
+    color: #FFFFFF;
+}
+
+    A.copy_t_wb:visited {
+        color: #FFFFFF;
+    }
+
+    A.copy_t_wb:hover {
+        color: #FFFFFF;
+    }
+
+    A.copy_t_wb:link {
+        color: #FFFFFF;
+    }
+
+
+
+.reporttitle {
+    font-family: Tahoma;
+    font-size: 15pt;
+    font-weight: bolder;
+    color: black;
+}
+
+.reportdate {
+    font-family: Tahoma;
+    font-size: 12pt;
+    font-weight: bolder;
+    color: black;
+}

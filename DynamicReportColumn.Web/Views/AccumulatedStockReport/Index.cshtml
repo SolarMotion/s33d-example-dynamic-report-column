@@ -1,0 +1,73 @@
+﻿@using DynamicReportColumn.Web.Models;
+@model AccumulatedStockViewModel
+
+<div class="body-background">
+    <br />
+    <h3>Accumulated Stock Report</h3>
+
+    @using (Html.BeginForm("IndexResult", "AccumulatedStockReport", FormMethod.Post, new { target = "_blank" }))
+    {
+        <div class="card-container">
+            <div class="form-group row">
+                <div class="col-md-4">
+                    <label for="Format" class="control-label input-group color-green">
+                        Format
+                    </label>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default active">
+                            <input type="radio" name="Format" id="Web" value="Web" checked>Web
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hr">
+                <hr style="border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);" />
+            </div>
+
+            @for (var i = 0; i < Model.ShownColumns.Count(); i++)
+            {
+                if (i == 0)
+                {
+                    <div class="form-group row">
+                        <div class="col-md-2">
+                            @Html.LabelFor(a => a.ShownColumns)
+                        </div>
+                        <div class="col-md-2">
+                            <label>
+                                @Html.HiddenFor(a => a.ShownColumns[i].ColumnValue)
+                                @Html.HiddenFor(a => a.ShownColumns[i].ColumnName)
+                                @Html.CheckBoxFor(a => a.ShownColumns[i].IsTick, new { Style = "vertical-align:6px}" })
+                                @Html.DisplayFor(a => a.ShownColumns[i].ColumnName)
+                            </label>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="form-group row">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-2">
+                            <label>
+                                @Html.HiddenFor(a => a.ShownColumns[i].ColumnValue)
+                                @Html.HiddenFor(a => a.ShownColumns[i].ColumnName)
+                                @Html.CheckBoxFor(a => a.ShownColumns[i].IsTick, new { Style = "vertical-align:3px}" })
+                                @Html.DisplayTextFor(a => a.ShownColumns[i].ColumnName)
+                            </label>
+                        </div>
+                    </div>
+                }
+            }
+
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <button id="btnExport" name="Exportbutton" type="submit" class="btn btn-sm btn-success" value="Generate">
+                        Generate
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>

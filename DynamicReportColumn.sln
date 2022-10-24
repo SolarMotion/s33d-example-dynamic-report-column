@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicReportColumn.Web", "DynamicReportColumn.Web\DynamicReportColumn.Web.csproj", "{CCFE6F19-85ED-4993-9B9D-D4D5823E144B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicReportColumn.Data", "DynamicReportColumn.Data\DynamicReportColumn.Data.csproj", "{1790059F-48FF-4990-ABE2-6EA79BDE4C88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCFE6F19-85ED-4993-9B9D-D4D5823E144B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFE6F19-85ED-4993-9B9D-D4D5823E144B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFE6F19-85ED-4993-9B9D-D4D5823E144B}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{CCFE6F19-85ED-4993-9B9D-D4D5823E144B}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{CCFE6F19-85ED-4993-9B9D-D4D5823E144B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFE6F19-85ED-4993-9B9D-D4D5823E144B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1790059F-48FF-4990-ABE2-6EA79BDE4C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1790059F-48FF-4990-ABE2-6EA79BDE4C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1790059F-48FF-4990-ABE2-6EA79BDE4C88}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{1790059F-48FF-4990-ABE2-6EA79BDE4C88}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{1790059F-48FF-4990-ABE2-6EA79BDE4C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1790059F-48FF-4990-ABE2-6EA79BDE4C88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BECE651-7893-4BCF-87A5-CC31F5BDFA65}
+	EndGlobalSection
+EndGlobal

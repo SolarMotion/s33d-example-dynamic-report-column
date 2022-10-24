@@ -1,0 +1,89 @@
+﻿@using DynamicReportColumn.Web.Models;
+
+@model AccumulatedStockViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="@Url.Content("~/Content/ReportSite.css")" rel="stylesheet" type="text/css" media="all" />
+    <title>Accumulated Stock Report</title>
+</head>
+
+<body>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" bordercolor="white">
+        <tr>
+            <td width="400" align="left">
+                <img alt="logo" width="100" height="100" border="0" />
+            </td>
+            <td align="center"><font class="reporttitle">Accumulated Stock Report</font></td>
+            <td valign="bottom" align="right"><font class="tabletxt" align="right"><br>@Model.ReportDate</font></td>
+        </tr>
+    </table>
+    <font class="tabletxt">
+        <br>
+        Location : @Model.Center
+        <hr />
+        <br>
+    </font>
+
+    <table border="1" style="border-color:lightgrey" width="100%" cellspacing="0">
+        <tr class="tabletitle" style="background-color:#d51414; color:white;">
+            <td style="@Model.ReportColumnCss.LocationCodeCss">Location Code</td>
+            <td style="@Model.ReportColumnCss.LocationCss">Center</td>
+            <td style="@Model.ReportColumnCss.LocationTypeCss">Center Type</td>
+            <td style="@Model.ReportColumnCss.RegionCss">Region</td>
+            <td style="@Model.ReportColumnCss.BusinessUnitCss">Business Unit</td>
+            <td style="@Model.ReportColumnCss.ModelCss">Model</td>
+            <td style="@Model.ReportColumnCss.ColourCss">Colour</td>
+            <td style="@Model.ReportColumnCss.TypeCss">Type</td>
+            <td style="@Model.ReportColumnCss.StatusCss">Status</td>
+            <td style="@Model.ReportColumnCss.QuantityCss">Qty</td>
+            <td style="@Model.ReportColumnCss.ReserveQuantityCss">Reserve Qty</td>
+            <td style="@Model.ReportColumnCss.BalanceQuantityCss">Balance Qty</td>
+
+            <td style="@Model.ReportColumnCss.Location1Css">Center 1</td>
+            <td style="@Model.ReportColumnCss.Location2Css">Center 2</td>
+            <td style="@Model.ReportColumnCss.Location3Css">Center 3</td>
+            <td style="@Model.ReportColumnCss.Location4Css">Center 4</td>
+            <td style="@Model.ReportColumnCss.Location5Css">Center 5</td>
+            <td style="@Model.ReportColumnCss.Location6Css">Center 6</td>
+            <td style="@Model.ReportColumnCss.Location7Css">Center 7</td>
+            <td style="@Model.ReportColumnCss.Location8Css">Center 8</td>
+        </tr>
+        @if (Model.AccumulatedStockItemList != null)
+        {
+            foreach (var item in Model.AccumulatedStockItemList)
+            {
+                <tr class=tabletxt>
+                    <td style="@Model.ReportColumnCss.LocationCodeCss">@item.DealerCode</td>
+                    <td style="@Model.ReportColumnCss.LocationCss">@item.Center</td>
+                    <td style="@Model.ReportColumnCss.LocationTypeCss">@item.CenterType</td>
+                    <td style="@Model.ReportColumnCss.RegionCss">@item.Region</td>
+                    <td style="@Model.ReportColumnCss.BusinessUnitCss">@item.BusinessUnit</td>
+                    <td style="@Model.ReportColumnCss.ModelCss">@item.Model</td>
+                    <td style="@Model.ReportColumnCss.ColourCss">@item.Colour</td>
+                    <td style="@Model.ReportColumnCss.TypeCss">@item.Type</td>
+                    <td style="@Model.ReportColumnCss.StatusCss">@item.Status</td>
+                    <td style="@Model.ReportColumnCss.QuantityCss">@Html.Raw(@item.Qty)</td>
+                    <td style="@Model.ReportColumnCss.ReserveQuantityCss">@item.ReserveQty</td>
+                    <td style="@Model.ReportColumnCss.BalanceQuantityCss">@item.BalanceQty</td>
+
+                    <td style="@Model.ReportColumnCss.Location1Css">@item.Center1</td>
+                    <td style="@Model.ReportColumnCss.Location2Css">@item.Center2</td>
+                    <td style="@Model.ReportColumnCss.Location3Css">@item.Center3</td>
+                    <td style="@Model.ReportColumnCss.Location4Css">@item.Center4</td>
+                    <td style="@Model.ReportColumnCss.Location5Css">@item.Center5</td>
+                    <td style="@Model.ReportColumnCss.Location6Css">@item.Center6</td>
+                    <td style="@Model.ReportColumnCss.Location7Css">@item.Center7</td>
+                    <td style="@Model.ReportColumnCss.Location8Css">@item.Center8</td>
+                </tr>
+            }
+        }
+    </table>
+    <font class="tabletxt">Total Record: @Model.RecordTotalCount</font>
+</body>
+</html>

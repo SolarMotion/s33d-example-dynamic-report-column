@@ -1,0 +1,84 @@
+﻿@using DynamicReportColumn.Web.Models;
+
+@model OrderReportViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="@Url.Content("~/Content/ReportSite.css")" rel="stylesheet" type="text/css" media="all" />
+    <title>Order Report</title>
+</head>
+
+<body>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" bordercolor="white">
+        <tr>
+            <td width="400" align="left">
+                <img alt="logo" width="100" height="100" border="0" />
+            </td>
+            <td align="center"><font class="reporttitle">Order Report</font></td>
+            <td valign="bottom" align="right"><font class="tabletxt" align="right"><br>@Model.ReportDate</font></td>
+        </tr>
+    </table>
+    <font class="tabletxt">
+        <br>
+        Location : @Model.Center
+        <hr />
+        <br>
+    </font>
+
+    <table border="1" style="border-color:lightgrey" width="100%" cellspacing="0">
+        <tr class="tabletitle" style="background-color:#d51414; color:white;">
+            <td style="@Model.ReportColumnCss.RegionCss">Region</td>
+            <td style="@Model.ReportColumnCss.StateCss">State</td>
+            <td>CenterType</td>
+            <td>Code</td>
+            <td>Locator</td>
+            <td>OrderID</td>
+            <td>POSID</td>
+            <td>OrderDT</td>
+            <td>ReceivedDT</td>
+            <td>Brand</td>
+            <td>Model</td>
+            <td>Item Code</td>
+            <td>Qty</td>
+            <td>TaggedQty</td>
+            <td>Status</td>
+            <td>Remark</td>
+            <td>Balance</td>
+            <td>Access</td>
+
+        </tr>
+        @if (Model.OrderReportList != null)
+        {
+            foreach (var item in Model.OrderReportList)
+            {
+                <tr class=tabletxt>
+                    <td style="@Model.ReportColumnCss.RegionCss">@item.Region</td>
+                    <td style="@Model.ReportColumnCss.StateCss">@item.State</td>
+                    <td>@item.CenterType</td>
+                    <td>@item.Code</td>
+                    <td>@item.Location</td>
+                    <td>@item.OrderID</td>
+                    <td>@item.POSID</td>
+                    <td>@item.OrderDT</td>
+                    <td>@item.ReceiveDT</td>
+                    <td>@item.Brand</td>
+                    <td>@item.Model</td>
+                    <td>@item.ItemCode</td>
+                    <td>@item.Qty</td>
+                    <td>@item.TaggedQty</td>
+                    <td>@item.Status</td>
+                    <td>@item.Remark</td>
+                    <td>@item.Balance</td>
+                    <td>@item.Access</td>
+                </tr>
+            }
+        }
+    </table>
+    <font class="tabletxt">Total Record: @Model.RecordTotalCount</font>
+</body>
+</html>
